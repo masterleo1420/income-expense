@@ -59,7 +59,7 @@ function removeData(id){
 
 function addTransection(e) {
     e.preventDefault();
-    if(textel.value.trim() === '' && amountel.value.trim() ==='' ){
+    if(textel.value.trim() === '' || amountel.value.trim() ==='' ){
         alert(`โปรดใส่ข้อมูลให้ครบ`)
     }else{
         const data = {
